@@ -1,2 +1,7 @@
-# marketing-insights-dashboard
-Analytics dashboard for sales and marketing teams
+# Marketing Insights Dashboard  
+
+An interactive analytics dashboard for software sales & marketing teams.  
+📊 Features:  
+- Real-time campaign performance tracking  
+- CRM integration  
+- Lead conversion metrics  
