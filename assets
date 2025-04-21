@@ -1,1 +1,16 @@
 
+import os
+
+# Create folders and placeholder files to simulate an "assets" directory
+project_dir = "/mnt/data/marketing-insights-dashboard"
+assets_dir = os.path.join(project_dir, "assets")
+
+# Create directory structure
+os.makedirs(assets_dir, exist_ok=True)
+
+# Add a placeholder image file
+placeholder_image_path = os.path.join(assets_dir, "cover-image.png")
+with open(placeholder_image_path, "wb") as f:
+    f.write(b"\x89PNG\r\n\x1a\n")  # PNG header to simulate a valid image file
+
+placeholder_image_path
